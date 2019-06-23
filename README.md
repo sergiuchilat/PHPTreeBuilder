@@ -1,6 +1,6 @@
 # PHPTreeBuilder
 
-Входящие параметры метода buildTree:
+=============Входящие параметры метода buildTree:=======================
 buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children', $keyField = 'id')
      @param $flat - сплошной массив
      @param $root - ID корневого родительского элемента

@@ -1,5 +1,5 @@
 # PHPTreeBuilder
-
+Утилита для создания древовидной структуры из массива
      
      Использование как Trait
      В модели:
@@ -14,7 +14,7 @@
      $tree = TreeBuilder::buildTree($list, 0)
      
      
-     Утилита для создания древовидной структуры из массива
+    
      =============Входящие параметры метода buildTree:=======================
      buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children', $keyField = 'id')
      @param $flat - сплошной массив

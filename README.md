@@ -2,7 +2,7 @@
 Утилита для создания древовидной структуры из массива
 
 =============Входящие параметры метода buildTree:=======================
-buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children', $keyField = 'id')
+     buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children', $keyField = 'id')
      @param $flat - сплошной массив
      @param $root - ID корневого родительского элемента
      @param string $parentField - название родительского поля (по умолчанию parent_id)

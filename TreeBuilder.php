@@ -36,13 +36,13 @@ class TreeBuilder
      * @return array список узлов текущей ветки
      */
     private static function buildBranch(&$parents, $children) {
-        $tree = [];
+        $branch = [];
         foreach ($children as $child) {
             if (isset($parents[$child[self::$keyField]])) {
                 $child[self::$childrenField] = self::buildBranch($parents, $parents[$child[self::$keyField]]);
             }
-            $tree[] = $child;
+            $branch[] = $child;
         }
-        return $tree;
+        return $branch;
     }
 }

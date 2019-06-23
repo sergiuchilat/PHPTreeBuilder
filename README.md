@@ -1,14 +1,12 @@
 # PHPTreeBuilder
 Утилита для создания древовидной структуры из массива
-
-=============Входящие параметры метода buildTree:=======================
+     =============Входящие параметры метода buildTree:=======================
      buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children', $keyField = 'id')
      @param $flat - сплошной массив
      @param $root - ID корневого родительского элемента
      @param string $parentField - название родительского поля (по умолчанию parent_id)
      @param string $childrenField - поле для сохранения дочерних узлов (по умолчанию children)
      @param string $keyField - ключевое поле (по умолчанию id)
-     
      =========Использование как Trait=================
      
      Использование как Trait
@@ -93,4 +91,5 @@
             [parent_id] => 0 
           ]
         ]
+     
      

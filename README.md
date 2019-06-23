@@ -8,7 +8,7 @@ buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children',
      @param string $childrenField - поле для сохранения дочерних узлов (по умолчанию children)
      @param string $keyField - ключевое поле (по умолчанию id)
      
-     ******************Использование как Trait********************
+     =========Использование как Trait=================
      
      Использование как Trait
      В модели:

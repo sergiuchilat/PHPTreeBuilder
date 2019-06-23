@@ -1,4 +1,5 @@
 # PHPTreeBuilder
+Утилита для создания древовидной структуры из массива
 
 =============Входящие параметры метода buildTree:=======================
 buildTree($flat, $root, $parentField = 'parent_id', $childrenField = 'children', $keyField = 'id')

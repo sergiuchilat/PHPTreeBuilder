@@ -3,7 +3,7 @@ namespace App;
 
 trait TreeBuilder {
     /** Построение дерева
-     * @param $flat - сплошной массив
+     * @param $flat - плоский массив
      * @param $root - ID корневого родительского элемента
      * @param string $parentField - название родительского поля (по умолчанию parent_id)
      * @param string $childrenField - поле для сохранения дочерних узлов (по умолчанию children)

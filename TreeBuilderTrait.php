@@ -26,13 +26,13 @@ trait TreeBuilder {
      * @return array список узлов текущей ветки
      */
     private function buildBranch(&$parents, $children, $childrenField, $keyField) {
-        $tree = [];
+        $branch = [];
         foreach ($children as $child) {
             if (isset($parents[$child[$keyField]])) {
                 $child[$childrenField] = $this->buildBranch($parents, $parents[$child[$keyField]], $childrenField, $keyField);
             }
-            $tree[] = $child;
+            $branch[] = $child;
         }
-        return $tree;
+        return $branch;
     }
 }
